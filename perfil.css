@@ -1,0 +1,63 @@
+#cece-inf{
+  width: 450px;
+  height: 450px;
+  margin: 0 auto;
+  background: #0c0c0cd1;
+  outline: 6px solid #0c0c0cd1;
+  outline-offset: 6px;
+    display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+
+.cename {
+  width: 100px; 
+  height: 450px;
+  order: 1;
+  flex-basis: auto;
+}
+
+.ceimag{
+  width: 350px; 
+  height: 450px;
+  order: 2;
+  flex-basis: auto;
+}
+
+.ceimag .cecebox{
+  width: 450px;
+  height: 450px;
+  opacity: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  align-items: center;
+  transform: scale(0.65);
+  transition: 0.7s;
+  top: 10px;
+    background: black;
+}
+
+.ceimag:hover .cecebox {
+  transition: 0.7s;  
+  opacity: 0.95;
+  transform: scale(0.98);
+}
+
+.cecebox .cecetxt {
+  font: 10px calibri; -webkit-columns: 50px 2; text-align: justify; overflow: auto; width: 98%; height: auto; color: #c3c3c3; line-height: 10px;}
+
+.cecebox .cecetxt b {color: #78759c!important; text-transform: uppercase; font-weight: 700;} 
+
+.nametag {
+  font: 700 18px Calibri;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #c3c3c3;
+  transform: rotate(-90deg);
+  display: block;
+  position: relative;
+  top: 120px;
+  width: 300px;
+  left: -100px;
+}
