@@ -50,9 +50,11 @@ font-size: 60px;
 }
 
 .cecebox .cecetxt {
-  font: 10px calibri; -webkit-columns: 50px 2; text-align: justify; overflow: auto; width: 98%; height: auto; color: #c3c3c3; line-height: 10px;}
+  font: 12px calibri; -webkit-columns: 50px 2; text-align: justify; overflow: auto; width: 98%; height: auto; color: #c3c3c3; line-height: 13px;}
 
 .cecebox .cecetxt b {color: #78759c!important; text-transform: uppercase; font-weight: 700;} 
+
+.cecebox span{ font: 900 20px calibri; letter-spacing: 3px;}
 
 .nametag {
 font: 700 30px Calibri;
