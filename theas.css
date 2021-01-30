@@ -54,9 +54,9 @@ overflow: hidden;
 
 .tjsig:hover .tjasc{
   top: -61px;
-    -webkit-transition:  0.5s ;
+  -webkit-transition:  0.5s ;
   transition-delay: 0.1s;
-    display: block;
+  display: block;
   z-index: 1;
 }
 
