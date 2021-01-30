@@ -1,0 +1,69 @@
+.tjsig{
+  width: 320px;
+  height: 200px;
+  background: url(https://i.ibb.co/ZNj6DSr/tj2.png) center/cover;
+  margin: 0 auto;
+  border: 2px solid #922828;
+  outline: 7px solid #161616;
+text-align: center;
+overflow: hidden;
+}
+
+.tjbt{
+  font: 800 8px arial;
+  text-transform: uppercase;
+  color: #e1e1e1;
+  margin: 170px 5px 5px;
+    position: relative;
+  display: block;
+  -webkit-transition:  0.5s ease-in-out;
+  z-index: 1;
+}
+
+.tjfil{
+    width: 320px;
+  height: 220px;
+  background: linear-gradient(to bottom left,#922828,#010101);
+  position: relative;
+  top: 20px;
+      -webkit-transition:  0.5s ;
+  opacity: 0.5;
+}
+
+.tjasc{
+  font: 800 60px arial;
+  opacity: 0.9;
+  position: relative;
+      -webkit-text-stroke: 1px #922828;
+-webkit-text-fill-color: #54191942;
+  position: relative;
+  top: 20px;
+  letter-spacing: 3px;
+}
+
+.tjsig:hover .tjbt{
+  margin: 150px 5px 5px;
+    -webkit-transition:  0.5s ease-in-out;
+}
+
+.tjsig:hover .tjfil{
+  top: -262px;
+    -webkit-transition:  0.5s ;
+  transition-delay: 0.1s;
+}
+
+.tjsig:hover .tjasc{
+  top: -61px;
+    -webkit-transition:  0.5s ;
+  transition-delay: 0.1s;
+    display: block;
+  z-index: 1;
+}
+
+#tup {
+  bottom: 5px; position: relative;
+}
+
+#tob {
+  top: 3px; position: relative;
+}
