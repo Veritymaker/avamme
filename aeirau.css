@@ -1,0 +1,74 @@
+/**BETTY**/
+.author-405 .postprofile-avatar img {
+  content:url(https://i.ibb.co/TYzqcYF/betty1.png);
+} 
+.author-405 .post-cabecera-username a span strong:before {
+  content: 'Beatrize MacAeir'; color: #3f576b; visibility: visible;
+} 
+.author-405 .post-cabecera-username a {
+  visibility: hidden;
+}
+.author-405 .post-cabecera-ascendencia:before {
+  content: 'Descendiente de Lugh';
+} 
+.author-405 .rng-asc {
+  display: none;
+} 
+.author-405 .post-cabecera-icon .icon-esp:before {
+  content: ''; font-family: RPGAwesome;
+} 
+.author-405 {--color-GRUPO: #3f576b;}
+
+/**GAVE**/
+.author-663 .postprofile-avatar img {
+  content:url(https://i.ibb.co/tLpnycy/gave1.png);
+} 
+.author-663 .post-cabecera-username a span strong:before {
+  content: 'Gavriel MacAeir'; color: #3f576b; visibility: visible;
+} 
+.author-663 .post-cabecera-username a {
+  visibility: hidden;
+}
+.author-663 .post-cabecera-ascendencia:before {
+  content: 'Descendiente de Morrigan';
+} 
+.author-663 .rng-asc {
+  display: none;
+} 
+.author-663 .post-cabecera-icon .icon-esp:before {
+  content: ''; font-family: RPGAwesome;
+} 
+.author-405 {--color-GRUPO: #3f576b;}
+
+/**FORO**/
+body{background:url(https://i.ibb.co/b1LPKYg/aucuervil.png) no-repeat center center fixed;background-color:var(--fondo-oscuro);background-size:cover;}
+
+.firmau {
+  margin: 0 auto; 
+  width: 280px; height: 200px;
+  border: 8px solid #2b2d2d;
+}
+
+.firmtau{
+  width: 280px; min-height: 40px;
+  box-sizing: border-box; 
+  padding: 5px 10px; 
+  background: #2b2d2d8c; 
+  margin-top: 160px; 
+  font: 700 10px calibri; text-transform: uppercase; 
+  text-align:center; 
+  color: #efefef; 
+  text-shadow: -1px 1px 0 black;
+}
+
+.firmtau tb{
+  letter-spacing: 2px;
+  font-style: italic;
+  color: #2f567d;
+}
+
+.firmtau tg{
+  letter-spacing: 2px;
+  font-style: italic;
+  color: #2f4e3f;
+}
