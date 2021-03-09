@@ -17,6 +17,7 @@
 .author-405 .post-cabecera-icon .icon-esp:before {
   content: ""; font-family: RPGAwesome;
 } 
+
 .author-405 {--color-GRUPO: #3f576b;}
 
 /**GAVE**/
@@ -36,8 +37,9 @@
   display: none;
 } 
 .author-663 .post-cabecera-icon .icon-esp:before {
-  content: ''; font-family: RPGAwesome;
-} 
+  content: ""; font-family: RPGAwesome;
+}
+
 .author-663 {--color-GRUPO: #3f576b;}
 
 /**FORO**/
