@@ -33,12 +33,13 @@
 .author-663 .post-cabecera-ascendencia:before {
   content: 'Descendiente de Morrigan';
 } 
+
 .author-663 .rng-asc {
   display: none;
 } 
-
 .author-663 .post-cabecera-icon .icon-esp:before {
-    content: ""; }
+  content: ""; font-family: RPGAwesome;
+} 
 
 .author-663 {--color-GRUPO: #3f576b;}
 
