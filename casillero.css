@@ -1,5 +1,5 @@
 .kithacsl {
-  width: 900px;
+  width: 800px;
   height: 500px;
   background: #060606;
   margin: 0 auto;
@@ -43,8 +43,15 @@
 }
 
 .pjlinks a{
-  text-decoration: none!important;
-  display: inline-block;
-  color: white;
-  font-size: 25px;
+    text-decoration: none!important;
+    display: inline-block;
+    color: #fffafaf0;
+    font-size: 25px;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    height: 20px;
+    line-height: 15px;
+    border-radius: 50%;
+    border: 1px dashed #efefef;
 }
