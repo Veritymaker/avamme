@@ -1,0 +1,50 @@
+.kithacsl {
+  width: 900px;
+  height: 500px;
+  background: #060606;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+  border-top: 10px solid #6c698c;
+  border-left: 10px solid #6c698c;
+  border-bottom: 10px solid #922828;
+  border-right: 10px solid #922828;
+}
+
+.cslbimg1, .cslbimg2{
+  width: 250px; height:500px;
+  filter: grayscale(100%);
+}
+
+.cslnb{
+  width: 250px;
+  height: 125px;
+  background: #060606be;
+  position: relative;
+  top: 375px;
+  padding: 15px;
+  display: flex;
+  box-sizing: border-box;
+  mix-blend-mode: hard-light;
+  align-items: left;
+}
+
+.pjtag {
+  font: 900 20px Arial;
+  margin: 15px 5px;  color: white;
+  mix-blend-mode: normal;
+  min-height: 150px;
+}
+
+.pjlinks{
+  width: 70px;
+  display: grid;
+  justify-content: center;
+}
+
+.pjlinks a{
+  text-decoration: none!important;
+  display: inline-block;
+  color: white;
+  font-size: 25px;
+}
