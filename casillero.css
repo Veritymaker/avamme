@@ -1,5 +1,5 @@
 .kithacsl {
-  width: 800px;
+  width: 900px;
   height: 500px;
   background: #060606;
   margin: 0 auto;
@@ -14,19 +14,28 @@
 .cslbimg1, .cslbimg2{
   width: 250px; height:500px;
   filter: grayscale(100%);
+  overflow: hidden;
+  transition: 0.5s;
 }
 
-.cslnb{
+.cslbimg1:hover .cslnbce{
+  top: 375px;
+  transition: 0.5s ease-in-out;
+}
+.cslnbce{
   width: 250px;
   height: 125px;
   background: #060606be;
   position: relative;
-  top: 375px;
+  border-top: 1px dashed #000;
+  top: 500px;
   padding: 15px;
   display: flex;
   box-sizing: border-box;
   mix-blend-mode: hard-light;
   align-items: left;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.2s;
 }
 
 .pjtag {
@@ -37,21 +46,26 @@
 }
 
 .pjlinks{
-  width: 70px;
   display: grid;
+  width: 55px;
   justify-content: center;
 }
 
 .pjlinks a{
-    text-decoration: none!important;
-    display: inline-block;
-    color: #fffafaf0;
-    font-size: 18px;
-    width: 20px;
-    text-align: center;
-    padding: 5px;
-    height: 20px;
-    line-height: 15px;
-    border-radius: 50%;
-    border: 1px dashed #fffafaf0;
+  text-decoration: none!important;
+  display: inline-block;
+  color: #efefef;
+  font-size: 18px;
+  border: 1px solid #efefef;
+  width: 28px; height: 28px;
+  box-sizing: border-box;
+  padding: 1px 8px;
+  transform: rotate(-135deg);
+  transition: 0.5s;
+}
+
+.pjlinks a:hover{
+ transform: rotate(0deg);
+ transition: 0.5s ease-in;
+ border: 1px dashed #efefef;
 }
