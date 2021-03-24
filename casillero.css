@@ -18,11 +18,26 @@
   transition: 0.5s;
 }
 
-.cslbimg1:hover .cslnbce{
+.cslbimg1:hover, .cslbimg2:hover{
+  filter: grayscale(0%);
+  transition: 0.5s linear;
+}
+
+.cslbox {
+ width: 400px; height:500px; background: #060606;
+display:flex;
+}
+.cslbimg1:hover .cslnb{
   top: 375px;
   transition: 0.5s ease-in-out;
 }
-.cslnbce{
+
+.cslbimg2:hover .cslnb{
+  top: 375px;
+  transition: 0.5s ease-in-out;
+}
+
+.cslnb{
   width: 250px;
   height: 125px;
   background: #060606be;
@@ -43,6 +58,7 @@
   margin: 15px 5px;  color: white;
   mix-blend-mode: normal;
   min-height: 150px;
+  min-width: 150px;
 }
 
 .pjlinks{
@@ -68,4 +84,67 @@
  transform: rotate(0deg);
  transition: 0.5s ease-in;
  border: 1px dashed #efefef;
+}
+
+#datoscece {
+  padding: 20px 15px;
+}
+
+.cstt {
+  font: 35px 'Poppins';
+  color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #efefef;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #131313;
+  width: 365px;
+}
+
+.tonesquare{
+display: inline-block;
+    width: 80px;
+    height: 75px;
+    border: 1px solid #131313;
+    outline: 1px solid #131313;
+    outline-offset: 2px;
+    margin: 10px 3.5px;
+}
+
+.tonesquare span{
+  font: 600 10px Arial;
+  color: #060606;
+  margin: 50px 0 0 5px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tonesquare span nt{
+  font: italic 8px Arial;
+  color: #131313b0;
+  text-transform: uppercase;
+  margin: 4px;
+}
+
+#wh {
+  color: #efefef;
+}
+
+.cslquote{
+  width: 344px;
+  height: 140px;
+  padding: 10px;
+  box-sizing: border-bpx;
+  border-top: 1px solid #131313;
+  border-bottom: 1px solid #131313;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.cslquote tx {
+  color: #efefef;
+  font: italic 15px georgia;
+  text-transform: lowercase;
+  text-shadow: 1px 2px 0 #131313;
+  -webkit-text-stroke: 1px #0a0a0a;
 }
