@@ -130,6 +130,18 @@ display: inline-block;
   color: #efefef;
 }
 
+#cei {
+   margin: -3px;
+   font-size: 20px;
+   text-shadow: 1px 2px 0 #6c698c;
+}
+
+#tji {
+   margin: -3px;
+   font-size: 20px;
+   text-shadow: 1px 2px 0 #922828;
+}
+
 .cslquote{
   width: 344px;
   height: 140px;
