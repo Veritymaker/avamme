@@ -1,5 +1,5 @@
 .kithacsl {
-  width: 900px;
+  width: 880px;
   height: 500px;
   background: #060606;
   margin: 0 auto;
@@ -142,9 +142,10 @@ display: inline-block;
 }
 
 .cslquote tx {
-  color: #efefef;
-  font: italic 15px georgia;
-  text-transform: lowercase;
-  text-shadow: 1px 2px 0 #131313;
-  -webkit-text-stroke: 1px #0a0a0a;
+color: #efefef;
+    font: italic 14px georgia;
+    line-height: 16px;
+    text-transform: lowercase;
+    text-shadow: 1px 2px 0 #131313;
+    -webkit-text-stroke: 0.8px #0a0a0a;
 }
