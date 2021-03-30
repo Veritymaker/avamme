@@ -1,14 +1,14 @@
 .kithacsl {
-  width: 880px;
-  height: 500px;
-  background: #060606;
-  margin: 0 auto;
-  display: flex;
-  overflow: hidden;
-  border-top: 10px solid #6c698c;
-  border-left: 10px solid #6c698c;
-  border-bottom: 10px solid #922828;
-  border-right: 10px solid #922828;
+width: 880px;
+    height: 500px;
+    background: #060606;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 10px;
+    border-image-source: linear-gradient(to left, #922828, #6c698c, #922828, #6c698c);
 }
 
 .cslbimg1, .cslbimg2{
