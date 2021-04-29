@@ -7,13 +7,13 @@
   background: linear-gradient(to bottom right,#ab1111,#101010);
 }
 
-#rileysi-img {
+#rea-img {
   height: 200px;
   width: 320px;
    transition: ease 0.6s;
 }
 
- #reasig:hover #rileysi-img {
+ #reasig:hover #rea-img {
 filter: blur(2px);
  transition: ease 0.6s;
  transition-delay: 0.4s;
@@ -28,7 +28,7 @@ filter: blur(2px);
   filter: brightness(75%);
   transform: scale(0.25);
   opacity: 0;
-  transition: 0.6s;
+  transition: ease 0.6s;
 }
 
 #reasig:hover .silver {
@@ -43,7 +43,7 @@ width: 265px;
     line-height: normal;
    font: 600 10px arial;
     letter-spacing: 1px;
-    transition: 0.6s;
+    transition: ease 0.6s;
     color: white;
     margin: 30px;
 }
