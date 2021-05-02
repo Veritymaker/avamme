@@ -29,29 +29,29 @@
   letter-spacing: 3px;
   color: #efefef;
   position: relative;
-  top: 34px;
+  top: 25px;
   left: 40px;
 }
 
 .crown .tj:before {
-  width: 100px;
-  height: 1px;
-  margin-left: -13.2px;
-  margin-bottom: 5px;
-  background: #efefef;
-  content: ' ';
-  display: block;
+    width: 100px;
+    height: 1px;
+    margin-left: -13.2px;
+    margin-bottom: 5px;
+    background: #922828;
+    content: ' ';
+    display: block;
 }
 
 .crown .theatxt {
 width: 80%;
-height: auto;
-text-align: center;
-text-transform: uppercase;
-font: 9.5px calibri;
-color: #efefef;
-filter: brightness(80%);
-margin: 95px 0 0 15px;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font: 9.5px calibri;
+    color: #efefef;
+    filter: brightness(90%);
+    margin: 60px 0 0 15px;
 }
 
 .crown .theatxt:before {
@@ -75,10 +75,14 @@ margin-top: 8px;
 }
 
 .crown i {
-   animation: tjc ease 3s infinite;
-  color: #922828;
-  transition-delay: 0.1s;
-  display: block;
+animation: tjc ease 3s infinite;
+    color: #efefef;
+    transition-delay: 0.1s;
+    position: relative;
+    display: block;
+    font-size: 35px;
+    top: 40px;
+    left: 63px;
 }
 
 @keyframes tjc {
