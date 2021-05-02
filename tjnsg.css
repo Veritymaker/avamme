@@ -1,0 +1,94 @@
+#theasig {
+  width: 350px;
+  height: 240px;
+  margin: 0 auto;
+  outline: 4px double #922828;
+  border: 6px solid #0a0a0ae6;
+  overflow: hidden;
+  transition: ease-in 0.6s;
+}
+
+#theasig .crown {
+    width: 160px;
+    height: 240px;
+    position: absolute;
+    background: #0a0a0a;
+    transform: scale(0.5);
+    opacity: 0;
+    transition: ease-in 0.6s;
+}
+
+#theasig:hover .crown {
+    transform: scale(1);
+    opacity: 0.75;
+    transition: ease-out 0.6s;
+}
+
+.crown .tj {
+  font: 300 20px Vidaloka;
+  letter-spacing: 3px;
+  color: #efefef;
+  position: relative;
+  top: 34px;
+  left: 40px;
+}
+
+.crown .tj:before {
+  width: 100px;
+  height: 1px;
+  margin-left: -13.2px;
+  margin-bottom: 5px;
+  background: #efefef;
+  content: ' ';
+  display: block;
+}
+
+.crown .theatxt {
+width: 80%;
+height: auto;
+text-align: center;
+text-transform: uppercase;
+font: 9.5px calibri;
+color: #efefef;
+filter: brightness(80%);
+margin: 95px 0 0 15px;
+}
+
+.crown .theatxt:before {
+width: 50px;
+  height: 1px;
+  background: #922828;
+  content: ' ';
+  display: block;
+margin-left: 38px;
+margin-bottom: 8px;
+}
+
+.crown .theatxt:after {
+  width: 50px;
+  height: 1px;
+  background: #922828;
+  content: ' ';
+  display: block;
+margin-left: 38px;
+margin-top: 8px;
+}
+
+.crown i {
+   animation: tjc ease 3s infinite;
+  color: #922828;
+  transition-delay: 0.1s;
+  display: block;
+}
+
+@keyframes tjc {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
