@@ -1,4 +1,4 @@
-#pndbs {
+.pndbs {
   width: 320px;
   height: 190px;
   margin: auto;
@@ -15,14 +15,14 @@
   transform: translateY(-50px);
 }
 
-#pndbs:hover .pndsimg{
+.pndbs:hover .pndsimg{
   transform: translateY(-5px);
   transition: all 0.6s ease-in-out; 
   filter: brightness(25%) grayscale(75%);
   transition-delay: 0.2s;
 }
 
-.pndlyr{
+.pndbs .pndlyr{
   position: absolute;
   font: 9px calibri;
   text-align: center;
@@ -35,7 +35,7 @@
   transition: all 0.6s ease-in-out;
 }
 
-#pndbs:hover .pndlyr{
+.pndbs:hover .pndlyr{
   top: 85px;
   transition: all 0.6s ease-in-out;
   transition-delay: 0.2s;
@@ -52,7 +52,7 @@
   transition: all 0.6s ease-in-out;
   }
 
-#pndbs:hover .pndlyr:before{
+.pndbs:hover .pndlyr:before{
   width: 100px;
   margin-left: 105px;
 }
