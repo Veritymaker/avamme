@@ -30,13 +30,13 @@
   color: #ccc;
   letter-spacing: 1px;
   width: 310px;
-  top: 140px;
+  top: 340px;
   margin: 5px;
   transition: all 0.6s ease-in-out;
 }
 
 .pndbs:hover .pndlyr{
-  top: 85px;
+  top: 295px;
   transition: all 0.6s ease-in-out;
   transition-delay: 0.2s;
   }
