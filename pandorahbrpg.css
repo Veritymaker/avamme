@@ -1,7 +1,7 @@
 .pndbs {
   width: 320px;
   height: 190px;
-  margin: auto;
+  margin: 10px auto;
   overflow: hidden;
   border: 5px solid #8a140efa;
   outline: 1px dashed #161616;
@@ -30,7 +30,7 @@
   color: #ccc;
   letter-spacing: 1px;
   width: 310px;
-  top: 340px;
+  top: 355px;
   margin: 5px;
   transition: all 0.6s ease-in-out;
 }
