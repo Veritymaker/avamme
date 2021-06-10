@@ -40,3 +40,29 @@ background: var(--fondo-claro);
 .cabeceratxt2 {
   visibility: hidden;
 }
+
+/**CUENTA PA NARRACION**/
+.author-644 .postprofile-avatar img {
+  content:url(URL DE LA FOTO);
+} 
+
+.author-644 .post-cabecera-username a span strong:before {
+  content: 'ALKE'; color: var(--color-acento); visibility: visible;
+} 
+
+.author-644 .post-cabecera-username a {
+  visibility: hidden;
+} 
+
+.author-644 .post-cabecera-ascendencia:before {
+  content: 'DAIMON';
+} 
+
+.author-644 .rng-asc {
+  display: none;
+} 
+
+.author-644 .post-cabecera-icon .icon-esp:before {
+  content: 'ICONO'; font-family: RPGAwesome;} 
+
+.author-644 {--color-romanos: var(--color-acento);}
