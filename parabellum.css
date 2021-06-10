@@ -6,7 +6,9 @@ format(“truetype”);
 
 :root {
   --color-acento: #64080b;
-  --color-narracion: #64080b;}
+  --color-narracion: #64080b;
+ --color-acento2: #150202;
+}
 
 body {
   background: url(https://static.turbosquid.com/Preview/001210/300/4F/Z.jpg) no-repeat center center fixed;
@@ -19,5 +21,22 @@ background: var(--fondo-claro);
 
 .cabeceratxt1{
   display: none;
+  visibility: hidden;
+}
+
+.cabeceratxt2:before {
+  content: 'PARA BELLUM';
+  text-transform: lowercase;
+  visibility: visible;
+  font: 400 80px 'Geek';
+  position: relative;
+  margin: 10px;
+  left: 112px;
+  color: var(--color-acento);
+  text-shadow: 4px 2px 0px var(--color-acento2);
+  -webkit-text-stroke: 2px var(--color-acento2);
+} 
+
+.cabeceratxt2 {
   visibility: hidden;
 }
