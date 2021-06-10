@@ -19,4 +19,5 @@ background: var(--fondo-claro);
 
 .cabeceratxt1{
   display: none;
+  visibility: hidden;
 }
