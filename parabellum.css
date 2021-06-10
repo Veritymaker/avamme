@@ -4,6 +4,10 @@ src:url('https://dl.dropbox.com/s/tai15tozyd18axc/geek.ttf');
 format(“truetype”);
 }
 
+:root {
+  --color-acento: #64080b;
+  --color-narracion: #64080b;}
+
 body {
   background: url(https://static.turbosquid.com/Preview/001210/300/4F/Z.jpg) no-repeat center center fixed;
 } 
@@ -11,4 +15,8 @@ body {
 .cabecera {
 background: url(/*https://i.imgur.com/sOfzj9H.png*/) fixed center/cover no-repeat; 
 background: var(--fondo-claro);
+}
+
+.cabeceratxt1{
+  display: none;
 }
