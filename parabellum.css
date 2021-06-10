@@ -1,0 +1,14 @@
+@font-face {
+font-family: 'Geek';
+src:url('https://dl.dropbox.com/s/tai15tozyd18axc/geek.ttf');
+format(“truetype”);
+}
+
+body {
+  background: url(https://static.turbosquid.com/Preview/001210/300/4F/Z.jpg) no-repeat center center fixed;
+} 
+
+.cabecera {
+background: url(/*https://i.imgur.com/sOfzj9H.png*/) fixed center/cover no-repeat; 
+background: var(--fondo-claro);
+}
