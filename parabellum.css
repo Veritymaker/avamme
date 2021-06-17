@@ -11,7 +11,7 @@ format(“truetype”);
 }
 
 body {
-  background: url(https://i.ibb.co/fCb1wNF/templebck.jpg) no-repeat center center fixed;
+  background: url(https://i.ibb.co/fCb1wNF/templebck.jpg) no-repeat center/cover fixed;
 } 
 
 .cabecera {
