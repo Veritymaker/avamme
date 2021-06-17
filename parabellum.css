@@ -11,7 +11,7 @@ format(“truetype”);
 }
 
 body {
-  background: url(https://static.turbosquid.com/Preview/001210/300/4F/Z.jpg) no-repeat center center fixed;
+  background: url(https://i.ibb.co/d7V2MjY/templebkg.png) no-repeat center center fixed;
 } 
 
 .cabecera {
@@ -43,7 +43,7 @@ background: var(--fondo-claro);
 
 /**CUENTA PA NARRACION**/
 .author-644 .postprofile-avatar img {
-  content:url(URL DE LA FOTO);
+  content:url(https://i.ibb.co/TRWJ8zR/templemaster.png);
 } 
 
 .author-644 .post-cabecera-username a span strong:before {
