@@ -1,3 +1,4 @@
+/**OLD ONE**/
 .iansig{
   width: 300px;
   height: 220px;
@@ -90,4 +91,67 @@ opacity: 1;  transition-delay: 0.2s;
 
 .iansig:hover{
 background: url(https://i.ibb.co/q5cKyFt/kyl3.png);
+}
+
+
+//*NEW ONE**/
+#iansigbk {
+  width: 300px;
+  height: 180px;
+  margin: auto;
+  overflow: hidden;
+  border: 6px solid #080808;
+  outline: 1px solid #126180;
+  outline-offset: -5px;
+  position: relative;
+ }
+
+#iansigbk:hover .kyllimg{
+  transform: translateY(-5px);
+  transition: all 0.6s ease-in-out; 
+  filter: brightness(70%) grayscale(50%);
+  transition-delay: 0.2s;
+}
+
+.kyllimg {
+  height: 220px; 
+  width: 300px; 
+  transition: all 0.5s ease-in-out; 
+  transform: translateY(-30px);
+  position: absolute;
+}
+
+.lordtxt{
+  position: relative;
+  font: 9px calibri;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ccc;
+  letter-spacing: 1px;
+  width: 300px;
+  top: 120px;
+  margin: 1px;
+  transition: all 0.6s ease-in-out;
+}
+
+#iansigbk:hover .lordtxt{
+  top: 85px;
+  transition: all 0.6s ease-in-out;
+  transition-delay: 0.2s;
+   }
+
+.lordtxt:after{
+width: 50px;
+  height: 0.5px;
+  background: #126180;
+  content: ' ';
+  display: inline-block;
+margin-left: 0px;
+margin-top: -2px;
+  transition: all 0.6s ease-in-out;
+  }
+
+#iansigbk:hover .lordtxt:after{
+  width: 100px;
+  transition: all 0.6s ease-in-out;
 }
