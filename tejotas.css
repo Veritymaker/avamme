@@ -46,7 +46,7 @@
 }
 
 .tjmainbox .tjname {
- width: 300px;
+ width: 420px;
  font: 80px 'Vidaloka';
  position: relative; 
  top: 150px; left: 130px; 
@@ -100,7 +100,7 @@
     line-height: 30px;
     text-align: center;
     width: 32px; height: 32px;
-    padding: 10px;     margin: 7px 0px;
+    padding: 10px;     margin: 4.7px 0px;
     background: #080808;
     color: #d4cece;
 }
