@@ -1,0 +1,106 @@
+/**PORTADA BAUL**/
+.tjtrunk {
+  width: 875px; height: 600px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background: transparent;
+  border: 1px solid #080808;
+  display: inline-flex;
+}
+
+.tjmainbox {
+  width: 390px;  height: 600px;
+  box-sizing: border-box;
+  padding: 15px;
+  background: linear-gradient(to left top,#922828,#080808, #080808);
+  order: 1;
+}
+
+.tjmainimg {
+  width: 445px; height: 600px;
+  box-sizing: border-box;
+  padding: 15px;
+  background: #080808;
+  order: 2;
+}
+
+.tjmainbx {
+  width: 40px; height: 600px;
+  box-sizing: border-box;
+  padding: 15px;
+  background: #080808;
+  order: 3;
+}
+
+.tjmainbox .tjquote {
+ width: 280px; 
+ font: italic 11px calibri;
+ line-height: 15px; 
+ text-align: center; padding: 10px; 
+ color: #d4cece; 
+ letter-spacing: 6px; 
+ position: relative; 
+ top: 150px; left: 15px; 
+ border-bottom: 1px solid #423e3e59; 
+ border-top: 1px solid #423e3e59;
+}
+
+.tjmainbox .tjname {
+ width: 300px;
+ font: 80px 'Vidaloka';
+ position: relative; 
+ top: 150px; left: 165px; 
+ color: #efefef;
+ text-shadow: 0px 1px 2px #080808;
+ -webkit-text-stroke: 2px #423e3e59;
+}
+
+.tjname:after{
+    width: 150px; height: 0.5px;
+    background: #423e3e59;
+    content: ' ';
+    display: block;
+    position: relative;
+    top: -100px; left: 135px;
+  }
+
+.tjname span{
+  display: block;
+  font: 80px 'Italianno';
+  position: relative;
+  top: -86px; left: 120px;
+  color: #922828;
+  text-shadow: 0 1px 0 #080808;
+  -webkit-text-stroke: 0;
+}
+
+.tjmainbx tpl{
+    color: #d4cece;
+    width: 250px; height: 25px;
+    display: inline-flex;
+    transform: rotate(-90deg);
+    position: relative;
+    left: -120px; top: 90px;
+    font: 400 20px 'Vidaloka';
+    letter-spacing: 2px;
+}
+
+.tjmainimg .tjlinks {
+   position: absolute;
+   margin-top: 275px;
+   margin-left: -42px;
+   width: 45px;
+}
+
+.tjmainimg .tjlinks a {
+    display: inline-block;
+    border-radius: 100%;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    width: 32px; height: 32px;
+    padding: 10px;     margin: 7px 0px;
+    background: #080808;
+    color: #d4cece;
+}
