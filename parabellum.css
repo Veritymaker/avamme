@@ -72,7 +72,7 @@ background: var(--fondo-claro);
 } 
 
 .author-644 .post-cabecera-icon .icon-esp:before {
-  content: 'ICONO'; font-family: RPGAwesome;} 
+  content: ''; font-family: RPGAwesome;} 
 
 .author-644 {--color-romanos: var(--color-acento);}
 
