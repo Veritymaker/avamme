@@ -7,7 +7,16 @@ format(“truetype”);
 :root {
   --color-acento: #64080b;
   --color-narracion: #64080b;
- --color-acento2: #150202;
+  --color-acento2: #150202;
+  --fondo-base: #030303e0;
+    --fondo-claro: #0e0e0eab;
+    --fondo-oscuro: #040404;
+    --borde-gris: #2b2d2d;
+    --color-texto: #bababa;
+    --color-texto-claro: #f6f6f6;
+    --color-romanos: #614c74;
+    --color-griegos: #936131;
+    --color-celtas: #3F576B;
 }
 
 body {
@@ -41,7 +50,7 @@ background: var(--fondo-claro);
   visibility: hidden;
 }
 
-/**CUENTA PA NARRACION**/
+/*CUENTA PA NARRACION*/
 .author-644 .postprofile-avatar img {
   content:url(https://i.ibb.co/TRWJ8zR/templemaster.png);
 } 
@@ -66,3 +75,114 @@ background: var(--fondo-claro);
   content: 'ICONO'; font-family: RPGAwesome;} 
 
 .author-644 {--color-romanos: var(--color-acento);}
+
+
+/*TABLILLA*/
+post {
+  border-top: 1px solid var(--borde-gris);
+  font-size: 14px;
+  padding: 20px;
+  text-align: justify;
+  width: 600px;
+  display: block;
+  min-height: 600px;
+  background: var(--fondo-oscuro);
+  margin: 20px auto;
+  color: var(--color-texto);
+}
+
+.tb-pbllm {
+  width: 420px;
+  margin: 20px auto;
+}
+
+.tb-pbllm .tb-body {
+  width: 380px;
+  background: var(--fondo-oscuro);
+  min-height: 300px;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid var(--color-acento);
+}
+
+.tb-pbllm .tb-head:before {
+  content: "parabellum";
+  font-family: 'Geek';
+  font-size: 65px;
+  line-height: 65px;
+  color: var(--color-acento);
+  height: 50px;
+  display: block;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 400;
+  letter-spacing: 0px;
+  margin: 0px -10px -27px 0px;
+}
+
+.tb-pbllm .tb-head {
+  text-align: center;
+  font-family: 'Arial';
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 900;
+  color: var(--color-texto);
+  letter-spacing: 10px;
+  margin: 0px 10px 14px 0px;
+  line-height: 100%;
+}
+
+.tb-pbllm .tb-rol {
+  font-family: 'Arial';
+  font-size: 11px;
+  line-height: 150%;
+  padding: 30px;
+  border-top: 1px solid var(--color-acento);
+  margin-top: 25px;
+}
+
+.tb-pbllm .tb-rol:before {
+  font-family: 'RPGAwesome';
+  content: "";
+  color: var(--color-acento);
+  font-size: 25px;
+  line-height: 100%;
+  display: block;
+  margin: -42px auto 20px;
+  width: 25px;
+  height: 25px;
+  padding: 0px 5px;
+  background: var(--fondo-oscuro);
+}
+
+.tb-pbllm .tb-dt {
+  margin: 10px;
+}
+
+.tb-pbllm .tb-dt div {
+  font-size: 8px;
+  font-family: 'Arial';
+  text-transform: uppercase;
+  border: 1px solid var(--fondo-claro);
+  padding: 7px;
+  padding-left: 30px;
+  height: 8px;
+  line-height: 10px;
+  display: inline-block;
+  width: 131px;
+  margin: 5px 5px;
+}
+
+.tb-pbllm .tb-dt i {
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 10px;
+  width: 10px;
+  text-align; center;
+  background: var(--fondo-claro);
+  padding: 6px;
+  margin: -7px -30px;
+  display: inline-block;
+  position: absolute;
+  color: var(--color-acento);
+}
