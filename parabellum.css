@@ -155,6 +155,49 @@ post {
   background: var(--fondo-oscuro);
 }
 
+.tb-pbllm .tb-nar {
+  font-family: 'Arial';
+  font-size: 11px;
+  line-height: 150%;
+  padding: 30px;
+  border-bottom: 1px solid var(--color-acento);
+  margin-top: 5px;
+}
+
+.tb-pbllm .tb-nar:after {
+  font-family: 'RPGAwesome';
+  content: "";
+  color: var(--color-acento);
+  font-size: 25px;
+  line-height: 100%;
+  display: block;
+  margin: 10px auto -40px;
+  width: 25px;
+  height: 25px;
+  padding: 0px 5px;
+  background: var(--fondo-oscuro);
+}
+
+.tb-pbllm .subhead {
+  text-align: center;
+  font-family: 'Arial';
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 900;
+  color: var(--color-texto);
+  letter-spacing: 10px;
+  margin: 15px 10px 14px 0px;
+  line-height: 100%;
+}
+
+.tb-pbllm .subtext {
+  font: 11px Arial;
+  line-height: 150%;
+  padding: 0 30px;
+  margin-top: 5px;
+}
+
+
 .tb-pbllm .tb-dt {
   margin: 10px;
 }
