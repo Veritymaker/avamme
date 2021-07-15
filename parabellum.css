@@ -85,9 +85,7 @@ post {
   text-align: justify;
   width: 600px;
   display: block;
-  min-height: 600px;
   background: var(--fondo-oscuro);
-  margin: 20px auto;
   color: var(--color-texto);
 }
 
