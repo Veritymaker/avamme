@@ -107,6 +107,7 @@ animation: tjc ease 3s infinite;
   overflow: hidden;
   background: url(https://i.imgur.com/HtFvJFK.png) center/cover;
   transition: 0.5s ease-in-out;
+  position: relative;
 }
 
 #tejas .tjbck1{
@@ -163,7 +164,7 @@ transition: 0.7s ease-in-out;
 
 #tejas .txtejas{
   position: absolute;
-  top: 50px;
+  top: 30px;
   width: 275px;
   padding: 5px;
   margin: 5px;
