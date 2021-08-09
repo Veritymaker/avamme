@@ -96,3 +96,114 @@ animation: tjc ease 3s infinite;
     opacity:0;
   }
 }
+/*new one*/
+#tejas {
+  width: 300px;
+  height: 230px;
+  margin: 0 auto;
+  outline: 3px double #922828;
+  border: 10px solid #0a0a0a;
+  outline-offset: -4px;
+  overflow: hidden;
+  background: url(https://i.imgur.com/HtFvJFK.png) center/cover;
+  transition: 0.5s ease-in-out;
+}
+
+#tejas .tjbck1{
+  position: relative;
+  width: 100px;
+  height: 230px;
+  filter:opacity(70%);
+  margin-top: -230px;
+transition: 0.7s ease-in-out;
+  transition-delay: 0.1s;
+  animation: sombritas 7s linear infinite;
+}
+
+#tejas .tjbck2{
+  position: relative;
+  width: 100px;
+  height: 230px;
+    margin-top: 230px;
+  filter:opacity(70%);
+transition: 0.7s ease-in-out;
+  transition-delay: 0.1s;
+  animation: sombritas 7s linear infinite;
+}
+
+#tejas .tjbck3{
+  position: relative;
+  width: 100px;
+  height: 230px;
+  filter:opacity(70%);
+  margin-top: -230px;
+transition: 0.7s ease-in-out;
+  transition-delay: 0.1s;
+  animation: sombritas 7s linear infinite;
+}
+
+#tejas:hover .tjbck1, #tejas:hover .tjbck3{
+  transition: 0.6s ease-in;
+  margin-top: 0px;
+}
+
+#tejas:hover .tjbck2{
+  transition: 0.6s ease-in;
+  margin-top: 0px;
+}
+
+@keyframes sombritas { 
+  0% { background-color: #922828 } 
+  20% { background-color: #742020; }  
+  40% { background-color: #571818; }
+  60% { background-color: #0e0404; }
+  80% { background-color: #3a1010; }
+  100% { background-color: #922828 } 
+} 
+
+#tejas .txtejas{
+  position: absolute;
+  top: 50px;
+  width: 275px;
+  padding: 5px;
+  margin: 5px;
+  transform: scale(0.5);
+  opacity: 0;
+  transition: ease-in-out 0.6s;
+}
+
+.tx-t{
+  text-align: center;
+text-transform: uppercase;
+font: 10px calibri;
+  letter-spacing: 1px;
+color: #efefef;
+filter: brightness(80%);
+  margin: 50px 0;
+}
+
+#tejas:hover .txtejas {
+    transform: scale(1);
+    opacity: 0.75;
+    transition: ease-in-out 0.6s;
+}
+
+.tx-t:before {
+width: 60px;
+  height: 1.1px;
+  background: #efefef;
+  content: ' ';
+  display: block;
+margin-left: 115px;
+margin-bottom: 6px;
+}
+
+.tx-t:after {
+  width: 60px;
+  height: 1.1px;
+  background: #efefef;
+  content: ' ';
+  display: block;
+margin-left: 115px;
+margin-top: 6px;
+}
