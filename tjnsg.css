@@ -201,10 +201,10 @@ margin-bottom: 6px;
 
 .tx-t:after {
   width: 60px;
-  height: 1.1px;
-  background: #efefef;
-  content: ' ';
-  display: block;
+ height: 1.1px;
+ background: #efefef;
+ content: ' ';
+ display: block;
 margin-left: 115px;
 margin-top: 6px;
 }
