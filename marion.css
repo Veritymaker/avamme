@@ -1,0 +1,61 @@
+#mmsg {
+  width: 330px;
+  height: 220px;
+  margin: auto;
+  overflow: hidden;
+  outline: 1px dotted #307c91;
+  border: 10px solid #131212;
+  outline-offset: -6px;
+  position: relative;
+ }
+
+.mmc {
+    width: 330px;
+    height: 220px;
+    background: linear-gradient(to bottom,#307c91,#131212);
+    position: relative;
+  opacity: 0;
+    transition: all ease-in-out 1s;
+}
+
+#mmsg:hover .mmc{
+ opacity: 0.65;
+ transition: all ease-in-out 1s;
+}
+
+#mmsg .martx {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 1px;
+  font: 10px calibri;
+  color: #bfb4b4;
+  text-transform: uppercase;
+  line-height: 10px;
+  position: relative;
+  transition: all ease-in-out 1s;
+  top: 0px; 
+  z-index: 2;
+  text-shadow: 0 1px 1px #307c91;
+}
+
+#mmsg:hover .martx{
+  top: -70px;
+  transition: all ease-in-out 1s;
+}
+
+#mmsg i{
+ position: absolute;
+ transition: all ease-in-out 1s;
+ top: 140px;
+ margin: 5px 0 0 135px;
+ z-index: 1;
+ font-size: 50px;
+ color: #b6dce9;
+}
+
+#mmsg:hover i{
+  transition: all ease-in-out 1s;
+  opacity: 0.5;
+  top: 95px;
+}
