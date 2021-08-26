@@ -1,6 +1,6 @@
 /**BETTY**/
 .author-405 .postprofile-avatar img {
-  content:url(https://i.ibb.co/TYzqcYF/betty1.png);
+  content:url(https://i.ibb.co/CtQ6Zx0/betty1.png);
 } 
 .author-405 .post-cabecera-username a span strong:before {
   content: 'Beatrize MacAeir'; color: #3f576b; visibility: visible;
@@ -22,7 +22,7 @@
 
 /**GAVE**/
 .author-663 .postprofile-avatar img {
-  content:url(https://i.ibb.co/tLpnycy/gave1.png);
+  content:url(https://i.ibb.co/pjMLScd/gave1.png);
 } 
 .author-663 .post-cabecera-username a span strong:before {
   content: 'Gavriel MacAeir'; color: #3f576b; visibility: visible;
@@ -38,13 +38,13 @@
   display: none;
 } 
 .author-663 .post-cabecera-icon .icon-esp:before {
-  content: ""; font-family: RPGAwesome;
+  content: ""; font-family: RPGAwesome;
 } 
 
 .author-663 {--color-GRUPO: #3f576b;}
 
 /**FORO**/
-body{background:url(https://i.ibb.co/b1LPKYg/aucuervil.png) no-repeat center center fixed;background-color:var(--fondo-oscuro);background-size:cover;}
+body{background:url(https://i.ibb.co/TwjrC1x/aucuervil.png) no-repeat center center fixed;background-color:var(--fondo-oscuro);background-size:cover;}
 
 .firmau {
   margin: 0 auto; 
