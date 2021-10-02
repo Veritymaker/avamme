@@ -19,6 +19,14 @@ format(“truetype”);
     --color-celtas: #3F576B;
 }
 
+.postgroup-romanos, .profilegroup-romanos .perfil-u, .usergroup-romanos .navbar-icon, .usergroup-romanos .navbar-content, .postgroup-romanos.miembro-caja {
+    --color-acento: var(--color-narracion);
+}
+
+.postgroup-griegos, .profilegroup-griegos .perfil-u, .usergroup-griegos .navbar-icon, .usergroup-griegos .navbar-content, .postgroup-griegos.miembro-caja {
+    --color-acento: var(--color-narracion);
+}
+
 body {
   background: url(https://i.ibb.co/fCb1wNF/templebck.jpg) no-repeat center/cover fixed;
 } 
