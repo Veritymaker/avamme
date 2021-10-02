@@ -41,7 +41,7 @@ background: var(--fondo-claro);
   position: relative;
   margin: 10px;
   left: 112px;
-  color: var(--color-acento);
+  color: var(--color-narracion);
   text-shadow: 4px 2px 0px var(--color-acento2);
   -webkit-text-stroke: 2px var(--color-acento2);
 } 
@@ -56,7 +56,7 @@ background: var(--fondo-claro);
 } 
 
 .author-644 .post-cabecera-username a span strong:before {
-  content: 'ALKE'; color: var(--color-acento); visibility: visible;
+  content: 'ALKE'; color: var(--color-narracion); visibility: visible;
 } 
 
 .author-644 .post-cabecera-username a {
@@ -74,7 +74,7 @@ background: var(--fondo-claro);
 .author-644 .post-cabecera-icon .icon-esp:before {
   content: ''; font-family: RPGAwesome;} 
 
-.author-644 {--color-romanos: var(--color-acento);}
+.author-644 {--color-romanos: var(--color-narracion);}
 
 
 /*TABLILLA*/
@@ -100,7 +100,7 @@ post {
   min-height: 300px;
   padding: 20px;
   margin: auto;
-  border: 1px solid var(--color-acento);
+  border: 1px solid var(--color-narracion);
 }
 
 .tb-pbllm .tb-head:before {
@@ -135,7 +135,7 @@ post {
   font-size: 11.5px;
   line-height: 150%;
   padding: 30px;
-  border-top: 1px solid var(--color-acento);
+  border-top: 1px solid var(--color-narracion);
   margin-top: 25px;
 }
 
@@ -158,7 +158,7 @@ post {
   font-size: 11.5px;
   line-height: 150%;
   padding: 30px;
-  border-bottom: 1px solid var(--color-acento);
+  border-bottom: 1px solid var(--color-narracion);
   margin-top: 5px;
 }
 
@@ -225,5 +225,5 @@ post {
   margin: -7px -30px;
   display: inline-block;
   position: absolute;
-  color: var(--color-acento);
+  color: var(--color-narracion);
 }
