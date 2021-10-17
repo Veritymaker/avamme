@@ -165,3 +165,80 @@ margin-left: 160px;
 66% { color: var(--cecetxt); } 
 100% {color: var(--cecetxt); } 
 } 
+
+/**TABLILLA**/:root {
+--cecetxt: #625e85;  
+}
+
+#cecetemplate{
+ width: 100%; 
+ max-width: 430px;
+ margin: 0 auto;
+ padding: 25px;
+background: #030303;
+outline: 3px solid #131313;
+}
+
+#cecetemplate .cecetm-tit{
+letter-spacing: 4px;
+  font: 400 28px Anton;
+  color: var(--cecetxt);
+  text-shadow: 1px 1px 0 #131313;
+  text-align: center;
+}
+
+.cecetm-tit cct {
+ letter-spacing: 4px;
+  font: 400 28px Anton;
+  -webkit-text-stroke: 1px #c5c5c5bf;
+  color: transparent; 
+}
+
+#cecetemplate .textin {
+text-align: justify;
+line-height: 15px;
+font: 13px georgia;
+color: #c5c5c5bf;
+ margin: 10px;
+}
+
+.textin.stormchild strong {
+  color: var(--cecetxt);
+}
+
+#cecetemplate .sub-box {
+    width: 131px;
+    height: 29px;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 2px;
+    border-bottom: 1px solid #131313;
+  color: #c5c5c5bf;
+}
+
+.sub-box csc {
+    display: block;
+    width: 25px;
+    height: 25px;
+    z-index: -1;
+    position: unset;
+    margin-left: 5px;
+    margin-top: -5px;
+    background: var(--cecetxt);
+}
+
+.sub-box btx {
+    font: 400 10px Anton;
+    position: relative;
+  text-transform: lowercase;
+  letter-spacing: 2px;
+    top: -25px;
+    left: 25px;
+}
+
+.sub-box i {
+display: block;
+position: absolute;
+font-size: 25px;
+margin-left: -5px;
+}
