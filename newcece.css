@@ -1,0 +1,167 @@
+/**FIRMA**/
+:root {
+--cecetxt: #625e85;  
+}
+
+#cecesig {
+  width: 300px;
+  height: 220px;
+  margin: auto;
+  overflow: hidden;
+  border: 10px solid #010101;
+  outline: 1.6px solid var(--cecetxt);
+  outline-offset: -7px;
+  position: relative;
+  transition: all 0.1s ease-in-out; 
+ }
+
+#cecesig:hover{
+  animation: thunderer 1.5s linear infinite;
+  transition: all 0.1s ease-in-out; 
+}
+
+.ccimg {
+  width: 310px;
+  height: 220px;
+  transition: all 0.6s ease-in-out; 
+  position: absolute;
+ transform: scale(1);
+}
+
+#cecesig:hover .ccimg{
+  transition: all 0.6s ease-in-out; 
+  filter: brightness(30%) grayscale(70%);
+  transition-delay: 0.2s;
+  transform: scale(1.15);
+}
+
+.cec {
+    width: 310px;
+    height: 222px;
+    background: var(--cecetxt);
+    opacity: 0;
+    position: relative;
+    top: -2px;
+    transition: all ease-in-out 1s;
+}
+
+#cecesig:hover .cec{
+ opacity: 0.35;
+ transition: all ease-in-out 1s;
+}
+
+#cecesig .cst-1{
+  position: absolute;
+  top: 170px;
+  left: 60px;
+  letter-spacing: 4px;
+  font: 400 28px Anton;
+  -webkit-text-stroke: 1px #c5c5c5bf;
+  color: transparent; 
+  transition: all 0.5s ease-in-out;
+}
+
+#cecesig:hover .cst-1 {
+ left: 20px;
+ color: #c5c5c5bf; 
+ -webkit-text-stroke: transparent;
+ transition: all 0.5s ease-in-out;
+ animation: thundertxt 1.5s linear infinite;
+ transition-delay: 0.2s;
+}
+
+#cecesig .cst-2{
+  position: absolute;
+  top: 170px;
+  left: 151px;
+  letter-spacing: 4px;
+  font: 400 28px Anton;
+  color: #c5c5c5bf;
+  text-shadow: 1px 1px 0 #030303;
+  animation: thundertxt 1.5s linear infinite;
+  transition: all 0.5s ease-in-out; 
+}
+
+#cecesig:hover .cst-2 {
+ left: 205px;
+ transition: all 0.5s ease-in-out;
+ -webkit-text-stroke: 1px #c5c5c5bf;
+ color: transparent; 
+ animation: none;
+ text-shadow: none;
+ transition-delay: 0.2s;
+}
+
+#cecesig .zldag1, #cecesig .zldag2 {
+    font-size: 40px;
+    position: absolute;
+    margin-top: -360px;
+    color: #c5c5c5bf;
+    transition: 0.5s ease-in-out;
+    transition-delay: 0.2s;
+ }
+
+.zldag1 {
+    margin-left: 50px;
+    transform: rotate(60deg);
+}
+
+.zldag2 {
+   margin-left: -50px;
+   transform: rotate(15deg);
+}
+
+#cecesig:hover .zldag1, #cecesig:hover .zldag2 {
+    margin-top: -56px;
+    transition: 0.5s ease-in-out;
+  transform: rotate(0);
+}
+
+#cecesig .zldag1 i {
+display: block;
+margin-left: 115px;
+}
+
+#cecesig .zldag2 i {
+display: block;
+margin-left: 160px;
+ transform: scale(-1,1);
+}
+
+@keyframes thunderer { 
+0% { outline: 1.6px solid #030303; } 
+15% { outline: 1.6px solid #030303; } 
+48% { outline: 1.6px solid #030303; } 
+52% { outline: 1.6px solid var(--cecetxt);} 
+53% { outline: 1.6px solid var(--cecetxt); } 
+54% { outline: 1.6px solid var(--cecetxt); } 
+55% { outline: 1.6px solid var(--cecetxt); } 
+56% { outline: 1.6px solid var(--cecetxt); } 
+58% { outline: 1.6px solid #030303; } 
+60% { outline: 1.6px solid var(--cecetxt); } 
+61% { outline: 1.6px solid var(--cecetxt); } 
+62% { outline: 1.6px solid var(--cecetxt); } 
+63% { outline: 1.6px solid var(--cecetxt); } 
+64% { outline: 1.6px solid var(--cecetxt); } 
+66% { outline: 1.6px solid var(--cecetxt); } 
+100% {outline: 1.6px solid #030303; } 
+} 
+
+@keyframes thundertxt { 
+0% { color: var(--cecetxt); } 
+15% { color: var(--cecetxt); } 
+48% { color: var(--cecetxt); } 
+52% { color: #c5c5c5bf; } 
+53% { color: #c5c5c5bf; } 
+54% { color: #c5c5c5bf; } 
+55% { color: #c5c5c5bf; } 
+56% { color: #c5c5c5bf; } 
+58% { color: var(--cecetxt); } 
+60% { color: #c5c5c5bf; } 
+61% { color: #c5c5c5bf; } 
+62% { color: #c5c5c5bf; } 
+63% { color: #c5c5c5bf; } 
+64% { color: #c5c5c5bf; } 
+66% { color: var(--cecetxt); } 
+100% {color: var(--cecetxt); } 
+} 
