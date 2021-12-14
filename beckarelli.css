@@ -66,6 +66,26 @@
   transition-delay: 0.8s;
 }
 
+#beckarelli ascn{
+    display: block;
+    transform: rotate(-90deg);
+    position: relative;
+    text-transform: uppercase;
+    font: 900 31px 'Francois One';
+    letter-spacing: 8px;
+    margin: 10px;
+    top: -100px;
+    left: -35px;
+    color: #efefef;
+   transition-delay: 0.3s;
+}
+
+#beckarelli:hover ascn{
+   top: 78px;
+   transition: 0.6s ease-in-out;
+  transition-delay: 0.8s;
+}
+
 #beckarelli .redtejas{
   position: absolute;
   width: 140px;
