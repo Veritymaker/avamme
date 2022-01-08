@@ -78,3 +78,60 @@
   transition: all ease-in-out 0.6s;
   top: 0;
 }
+
+/**TABLILLA**/
+.gavebase{
+  width: 430px;
+  margin: 0 auto;
+  padding: 50px;
+  background: var(--fondo-base);
+  border: 1px solid #0c0c0c;
+  font-size: 13px;
+  color: #adadad;
+}
+
+.gavebase .tit1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #adadad;
+    border-bottom: 2px solid var(--gavc);
+    padding-bottom: 4px;
+    text-align: right;
+}
+
+.tit1 acn{
+  border-bottom: 5px solid var(--gavc);
+  padding-bottom: 3px;
+}
+
+.gavebase .tit2 {
+    font-size: 16px;
+    color: #020202;
+    border-bottom: 2px solid var(--gavc);
+    padding-bottom: 4px;
+    text-align: left;
+    margin-top: -10px;
+}
+
+.tit2 an{
+  border-bottom: 5px solid var(--gavc);
+  padding-bottom: 3px;
+}
+
+.gavebase .subtit{
+ text-transform: lowercase;
+ font-size: 9px;
+ letter-spacing: 3px;
+ text-align: center;
+ margin-top:5px;
+}
+
+.gavebase .texty {
+  line-height: 1.4em;
+  text-align: justify;
+  margin: 5px 0;
+}
+
+.texty.gavet strong {
+  color: var(--gavc);
+}
