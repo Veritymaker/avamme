@@ -119,11 +119,16 @@
 }
 
 .gavebase .subtit{
- text-transform: lowercase;
- font-size: 9px;
- letter-spacing: 3px;
- text-align: center;
- margin-top:5px;
+  text-transform: capitalize;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top:5px;
+}
+
+.gavebase .subtit i{
+   color: var(--gavc);
+   font-size: 11px;
 }
 
 .gavebase .texty {
