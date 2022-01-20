@@ -100,14 +100,14 @@
 }
 
 .tjmainimg .tjlinks a {
-    display: inline-block;
     border-radius: 100%;
     text-decoration: none;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 35px;
     text-align: center;
-    width: 32px; height: 32px;
-    padding: 10px;     margin: 4.7px 0px;
+    width: 36px;
+    height: 36px;
+    margin: 10px 0 5px 8px;
     background: var(--tjacento);
     color: #d4cece;
 }
