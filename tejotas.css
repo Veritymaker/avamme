@@ -193,25 +193,35 @@ width: 70px;
 }
 
 .tjfactsbox2 .tjcc {
-   
-    width: 150px;
+width: 150px;
     height: 150px;
     background: var(--tjaccent);
     border-radius: 50%;
     padding: 1px;
     border: 4px solid var(--tjborders);
-    margin: 10px 45px;
+    margin: 5px 45px;
     background: url(https://i.imgur.com/fDAHAqQ.gif) no-repeat border-box;
 }
 
 .tjfactsbox2 span {
     display: block;
-    font: 60px 'Italianno';
-    /*position: relative;
-    top: -86px;
-    left: 120px;*/
-    margin: 5px 45px;
+    font: 55px 'Italianno';
+    margin: 15px 45px;
     color: #922828;
     text-shadow: 0 1px 0 #080808;
     -webkit-text-stroke: 0;
+}
+
+.tjfactsbox2 #ff1 {
+  color: #d4cece;
+  display: inline-block;
+  margin: -1px 2px;
+  font-size: 18px;  
+}
+
+.tjfactsbox2 #ff2 {
+  color: var(--tjaccent);
+  display: inline-block;
+  margin: -1px 2px;
+  font-size: 18px; 
 }
