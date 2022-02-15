@@ -238,9 +238,8 @@ width: 150px;
 }
 .tjtrunk2 .prgrs-1 {
  flex: 1 calc(45% - 20px);
-  min-width: 240px;
-  height: 450px;
-  order: 1;
+ min-width: 240px;
+ order: 1;
  border-right: 2px solid var(--tjborders);
  background: linear-gradient(to right top,#922828,#080808, #080808);
 }
@@ -248,7 +247,6 @@ width: 150px;
 .tjtrunk2 .prgrs-2 {
   flex: 1 calc(45% - 20px);
   min-width: 240px;
-  height: 450px;
   order: 2;
   border-right: 2px solid var(--tjborders);
   background: linear-gradient(to left top,#922828,#080808, #080808);
@@ -284,13 +282,23 @@ width: 150px;
 
 .statag st {
   border-radius: 100%;
-  width: 34px;
-  height: 34px;
+  width: 34px;  height: 34px;
   background: var(--tjaccent); 
-  color: #d4cece;
+  color: var(--tjtxtc);
   font: 11px calibri;
   line-height: 32px;
   text-align: center;
   margin: 2px;
   border: 1px solid var(--tjborders);
+}
+
+.prgrs-1 span, .prgrs-2 span{
+  color: var(--tjaccent);
+  text-transform: uppercase;
+  font: 800 17px calibri;
+  }
+
+.prgrs-1 a, .prgrs-2 a{
+  text-decoration: none;
+  color: var(--tjtxtc);
 }
