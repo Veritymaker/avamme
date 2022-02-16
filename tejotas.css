@@ -313,26 +313,26 @@ width: 150px;
     margin: 5px auto;
     flex-wrap: wrap;
 }
+
 .tjtrunk3 .month-1 {
  flex: 1 calc(45% - 20px);
- min-width: 240px;
- order: 1;
- border-right: 2px solid var(--tjborders);
+ max-width: 250px;
+border-right: 2px solid var(--tjborders);
  background: linear-gradient(to left bottom,#922828,#080808, #080808);
   overflow: auto;
 }
 
 .tjtrunk3 .month-2 {
   flex: 1 calc(45% - 20px);
-  min-width: 240px;
-  order: 2;
-  border-right: 2px solid var(--tjborders);
+  max-width: 250px;
+   border-right: 2px solid var(--tjborders);
   background: linear-gradient(to right bottom,#922828,#080808, #080808);
   overflow: auto;
 }
 
+
 .month-1 .prgtit, .month-2 .prgtit {
-    width: 260px;
+    /*width: 260px;*/
     font: 60px 'Vidaloka';
     text-align: center;
     color: var(--tjtxtc);
