@@ -340,3 +340,15 @@ width: 150px;
     -webkit-text-stroke: 2px var(--tjborders);
     margin-top: 15px;
 }
+
+.month-1 tct, .month-2 tct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dashed #423e3e59;
+  width: 90%;
+  margin: 5px;
+  line-height: 15px;
+  height: 45px;
+  padding: 10px;
+}
