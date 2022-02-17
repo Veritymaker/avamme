@@ -313,12 +313,11 @@ width: 150px;
     margin: 5px auto;
     flex-wrap: wrap;
 }
-
 .tjtrunk3 .month-1 {
  flex: 1 calc(45% - 20px);
  max-width: 250px;
 border-right: 2px solid var(--tjborders);
- background: linear-gradient(to left bottom,#922828,#080808, #080808);
+ background: var(--tjacento)!important;
   overflow: auto;
 }
 
@@ -330,9 +329,8 @@ border-right: 2px solid var(--tjborders);
   overflow: auto;
 }
 
-
 .month-1 .prgtit, .month-2 .prgtit {
-    /*width: 260px;*/
+   /* width: 260px;*/
     font: 60px 'Vidaloka';
     text-align: center;
     color: var(--tjtxtc);
@@ -341,14 +339,57 @@ border-right: 2px solid var(--tjborders);
     margin-top: 15px;
 }
 
+.prgtit:after {
+    width: 45%;
+    height: 0.5px;
+    background: #423e3e59;
+    content: ' ';
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
 .month-1 tct, .month-2 tct{
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: flex-start!important;
   border-bottom: 1px dashed #423e3e59;
-  width: 90%;
+  width: 60%;
   margin: 5px;
   line-height: 15px;
   height: 45px;
   padding: 10px;
+}
+
+.month-1 tct dat, .month-2 tct dat{
+  border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background: var(--tjaccent);
+    font: 11px calibri;
+    line-height: 31px;
+    text-align: center;
+    margin: 2px;
+    color: var(--tjacento);
+}
+
+.month-1 tct a, .month-2 tct a {
+  text-transform: lowercase;
+    color: var(--tjtxtc);
+  text-shadow: 0 1px 0 var(--tjacento);
+  letter-spacing: 1px;
+    font: 20px 'Italianno';
+    text-decoration: none;
+    margin: -10px 0 2px;  
+}
+
+.month-1 tct span, .month-2 tct span {
+  margin-top: 15px;
+  margin-left: -55px;
+  font: 700 11px calibri;  
+  color: var(--tjtxtc);
+}
+
+.month-1 tct a i, .month-2 tct a i {
+  font-size: 12px;
 }
