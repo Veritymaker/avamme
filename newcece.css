@@ -242,3 +242,28 @@ position: absolute;
 font-size: 25px;
 margin-left: -5px;
 }
+
+/**TABLILLA RESPONSIVE**/
+.bf1 .cecetm-tit{
+  letter-spacing: 4px;
+  font: 400 28px Anton;
+  color: var(--cecetxt);
+  text-shadow: 1px 1px 0 #131313;
+  text-align: center;
+}
+
+.bf1 .textin {
+  text-align: justify;
+  line-height: 16px;
+  color: #c5c5c5bf;
+}
+
+.bf1 .sub-box {
+    width: 131px;
+    height: 29px;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 2px;
+    border-bottom: 1px solid #131313;
+    color: #c5c5c5bf;
+}
